@@ -1,14 +1,14 @@
-package com.javacore.exceptions.demo1;
+package com.javacore.exceptions;
 
 public class TryCatchFinallyDemo2 {
 
 
     public static void main(String[] args) {
 
-        System.out.println("0");
+        System.out.println("0-");
 
         try{
-            System.out.println("1");
+            System.out.println("1-");
             int [] arr = new int[10];
             for (int i = 0; i < arr.length+1; i++) {
                 System.out.println(arr[i]);
