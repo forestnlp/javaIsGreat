@@ -1,4 +1,4 @@
-package com.javacore.exceptions;
+package com.javacore.exceptionsdemo;
 
 public class TryCatchFinallyDemo1 {
 

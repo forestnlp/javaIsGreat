@@ -1,4 +1,4 @@
-package com.javacore.exceptions;
+package com.javacore.exceptionsdemo;
 
 public class CheckedExceptionDemo1 {
     static void m1(){

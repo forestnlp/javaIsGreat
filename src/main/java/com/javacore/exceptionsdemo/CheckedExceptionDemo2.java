@@ -1,6 +1,4 @@
-package com.javacore.exceptions;
-
-import java.io.IOException;
+package com.javacore.exceptionsdemo;
 
 public class CheckedExceptionDemo2 {
     static void m1() throws Exception {

@@ -1,4 +1,4 @@
-package com.javacore.utils;
+package com.javacore.utilsdemo;
 
 public class IntegerTest {
     public static void main(String[] args) {
@@ -7,5 +7,8 @@ public class IntegerTest {
 
         int k = integer;
         System.out.println(k);
+
+        Integer integer1 = Integer.valueOf(10);
+        System.out.println(integer1);
     }
 }

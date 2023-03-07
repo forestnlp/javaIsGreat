@@ -1,6 +1,6 @@
-package com.javacore.exceptions;
+package com.javacore.exceptionsdemo;
 
-public class TryCatchFinallyDemo5 {
+public class TryCatchFinallyDemo7 {
 
     static class Dog{
         String name;
@@ -24,8 +24,7 @@ public class TryCatchFinallyDemo5 {
             return dog;
         }
         finally {
-            dog.name = "巴克";
-            return dog;
+            dog =  new Dog("巴克");
         }
     }
 

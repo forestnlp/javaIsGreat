@@ -1,9 +1,11 @@
-package com.javacore.exceptions;
+package com.javacore.exceptionsdemo;
 
-public class TryCatchFinallyDemo4 {
+public class TryCatchFinallyDemo3 {
 
     /**
-     * 此时注意，执行finally时就真的return了。
+     * 这个地方是很需要注意的。
+     * 此时将a值暂存，去执行finally的语句，尽管finally对a改了值，但不影响缓存值。
+     * @return
      */
     public static int m1(){
 
@@ -15,7 +17,7 @@ public class TryCatchFinallyDemo4 {
             return a;
         }
         finally {
-            return 42;
+            a = 66;
         }
     }
 

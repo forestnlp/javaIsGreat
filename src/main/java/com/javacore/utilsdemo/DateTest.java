@@ -1,4 +1,4 @@
-package com.javacore.utils;
+package com.javacore.utilsdemo;
 
 import java.util.Date;
 

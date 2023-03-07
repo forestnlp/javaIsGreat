@@ -1,4 +1,4 @@
-package com.javacore.exceptions;
+package com.javacore.exceptionsdemo;
 
 import java.io.IOException;
 
